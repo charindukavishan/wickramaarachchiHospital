@@ -7,6 +7,7 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomecardsComponent } from './homecards/homecards.component';
 import { SliderComponent } from './slider/slider.component';
+import { CardCarouselComponent } from './card-carousel/card-carousel.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SliderComponent } from './slider/slider.component';
     HomeComponent,
     NavbarComponent,
     HomecardsComponent,
-    SliderComponent
+    SliderComponent,
+    CardCarouselComponent
   ],
   imports: [
     BrowserModule,
