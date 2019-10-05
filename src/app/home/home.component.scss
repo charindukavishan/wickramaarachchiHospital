@@ -1,11 +1,20 @@
 .intro-header {
   height: unset !important;
 }
-
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
 .view {
   height: 100vh !important;
 }
-
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
 h1 {
   letter-spacing: 8px;
 }
