@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomecardsComponent } from './homecards/homecards.component';
 import { SliderComponent } from './slider/slider.component';
 import { CardCarouselComponent } from './card-carousel/card-carousel.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardCarouselComponent } from './card-carousel/card-carousel.component';
     NavbarComponent,
     HomecardsComponent,
     SliderComponent,
-    CardCarouselComponent
+    CardCarouselComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

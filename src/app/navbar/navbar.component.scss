@@ -1,0 +1,19 @@
+.view {
+    background: url("../../assets/imgs/ayu_main.jpg")no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+}
+
+.navbar {
+    background-color: gray;
+}
+
+.top-nav-collapse {
+    background-color: rgba(100, 192, 24, 0.356);
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgba(100, 192, 24, 0.356);
+    }
+}

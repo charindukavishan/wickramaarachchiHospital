@@ -1,36 +1,59 @@
-<!--Main Navigation-->
-<header class="intro-header">
-
-
-  <!-- Intro Section -->
-  <!-- <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg);">
-    <div class="full-bg-img mask rgba-black-light">
-      <div class="container flex-center">
-        <div class="row pt-5 mt-3 w-100">
-          <div class="col-md-12">
-            <div class="text-center">
-              <h2 class="h1 h1-reponsive white-text font-up font-bold mb-3 wow fadeInDown" data-wow-delay="0.3s"><strong>Minimalist
-                  intro</strong></h2>
-              <hr class="hr-light mt-4 wow fadeInDown" data-wow-delay="0.4s">
-              <h5 class="font-up mb-5 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Photography &
-                  design</strong></h5>
-              <a mdbBtn color="white" outline="true" class="wow fadeInDown waves-light" data-wow-delay="0.4s"
-                mdbWavesEffect>portfolio</a>
-              <a mdbBtn color="white" outline="true" class="wow fadeInDown waves-light" data-wow-delay="0.4s"
-                mdbWavesEffect>About me</a>
-            </div>
-          </div>
-        </div>
-      </div>
+<mdb-card class="services">
+  <div class="services text-center">
+    <div>
+      <h2 class="card-title h1-responsive pt-3 mb-5 font-bold">
+        <strong>Slogan</strong>
+      </h2>
+      <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio
+        nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
+      </p>
+      <h2 class="card-title h1-responsive pt-3 mb-5 font-bold">
+        <strong>Vission</strong>
+      </h2>
+      <p class="mx-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem, optio vero odio
+        nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos. Odit sed qui, dolorum!
+      </p>
+      <a mdbBtn color="light-blue" mdbWavesEffect>
+        <mdb-icon fas icon="clone" class="left"></mdb-icon>About Us
+      </a>
     </div>
-  </div> -->
+  </div>
+</mdb-card>
 
- 
-  <app-slider></app-slider>
-  <br/>
-  <app-homecards></app-homecards>
 
-  <br/>
-  
-</header>
-<!--Main Navigation-->
+<div class="row">
+  <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="service-item">
+        <div class="flex-center"><img src="../../assets/imgs/kissclipart-herbal-medicine-icon-clipart-alternative-health-se-e91fe4bd0be73e4a.png.png" style="width: 50px;height: 50px;;"></div>
+        <h4>Serivice 1</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, rerum quasi suscipit doloremque vero quae. Vel repudiandae aspernatur laboriosam quibusdam. Voluptate illo sed dignissimos animi, dolore temporibus corporis maxime? Rerum?</p>
+      </div>
+  </div>
+   <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="service-item ">
+        <div class="flex-center"><img src="../../assets/imgs/kissclipart-herbal-medicine-icon-clipart-alternative-health-se-e91fe4bd0be73e4a.png.png" style="width: 50px;height: 50px;;"></div>
+        <h4>Serivice 2</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut fugiat iste reiciendis corporis at, quasi placeat? Adipisci a commodi sapiente nulla accusamus, mollitia rerum. Unde incidunt minus placeat modi tenetur!</p>
+      </div>
+  </div>
+   <div class="col-md-4 col-sm-6 col-xs-12">
+      <div class="service-item">
+          <div class="flex-center"><img src="../../assets/imgs/kissclipart-herbal-medicine-icon-clipart-alternative-health-se-e91fe4bd0be73e4a.png.png" style="width: 50px;height: 50px;;"></div>
+          <h4>Serivice 3</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, dignissimos asperiores? Perspiciatis laboriosam suscipit voluptatem, accusamus repellendus quisquam, asperiores eaque beatae qui fugiat sapiente enim veritatis culpa placeat. Magni, eveniet.</p>
+      </div>
+  </div>
+</div>
+
+<app-card-carousel></app-card-carousel>
+
+<!-- Flickity HTML init -->
+<div class="gallery js-flickity" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
+  <div class="gallery-cell img1"></div>
+  <div class="gallery-cell img1"></div>
+  <div class="gallery-cell"></div>
+  <div class="gallery-cell"></div>
+  <div class="gallery-cell"></div>
+  <div class="gallery-cell"></div>
+  <div class="gallery-cell"></div>
+</div>
