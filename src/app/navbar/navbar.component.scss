@@ -6,14 +6,15 @@
 
 .navbar {
     background-color: gray;
+font-style: strong;
 }
 
 .top-nav-collapse {
-    background-color: rgba(100, 192, 24, 0.356);
+    background-color: rgba(59, 5, 104, 0.356);
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: rgba(100, 192, 24, 0.356);
+        background-color: rgba(74, 24, 192, 0.356);
     }
 }
