@@ -39,15 +39,12 @@ h5 {
   }
 }
 .services{
-  background:rgba(0, 128, 0, 0.226);
+  // background:rgba(0, 128, 0, 0.226);
   padding: 1px
 }
 
-.slogan{
-  background-color :rgba(26, 212, 57, 0.274);
-}
-.slogan:hover{
-  background :rgba(128, 0, 117, 0.082);
+.card-title h1{
+  font-family: sans-serif
 }
 
 img {
@@ -67,6 +64,7 @@ body { font-family: sans-serif; }
 
 .gallery {
   background: #EEE;
+  padding: 50px
 }
 
 .gallery-cell {
@@ -207,11 +205,11 @@ body { font-family: sans-serif; }
 }
 
 .service-item:hover h4 {
-	color: #fff;
+	color:rgba(28, 28, 201, 0.918);
 }
 
 .service-item:hover p {
-	color: #fff;
+	color: rgba(28, 28, 201, 0.918);
 }
 
 
@@ -220,7 +218,7 @@ body { font-family: sans-serif; }
 
 img {
   width: 100px;
-  filter: brightness(0) invert(1);
+  // filter: brightness(10) invert(1);
 
 }
 
