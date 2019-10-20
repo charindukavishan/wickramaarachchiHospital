@@ -39,8 +39,15 @@ h5 {
   }
 }
 .services{
-  background:rgba(49, 230, 49, 0.349) center center;
+  background:rgba(0, 128, 0, 0.226);
   padding: 1px
+}
+
+.slogan{
+  background-color :rgb(19, 0, 128);
+}
+.slogan:hover{
+  background :rgba(19, 0, 128, 0.288);
 }
 
 img {
@@ -211,3 +218,102 @@ body { font-family: sans-serif; }
 
 
 
+img {
+  width: 100px;
+  filter: brightness(0) invert(1);
+
+}
+
+/*.container {
+  width: 75vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}*/
+
+.container {
+  /*width: 75vw;
+  position: relative;*/
+  /*margin: 0 auto;*/
+  /*justify-content: space-between;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 3.89em;
+  min-height: 100vh;
+  justify-items: center;
+  align-items: center;
+}
+
+.cardd .face {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.cardd .face.face1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.cardd:hover .face.face1 {
+  transform: translateY(0);
+  background: #ff0057;
+}
+
+.cardd .face.face1 .content {
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.cardd .face.face1 .content h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.container .cardd:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.cardd .face.face2 {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+}
+
+.cardd:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.cardd .face.face2 .content {
+  margin: 0;
+  padding: 0;
+}
+
+.cardd .face.face2 .content a {
+
+  margin: 15px 0 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 900;
+  padding: 5px;
+  color: #333;
+  border: 1px solid #333;
+}
+
+.cardd .face.face2 .content a:hover {
+
+  color: #fff;
+  background: #333;
+}
